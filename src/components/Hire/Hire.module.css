@@ -1,0 +1,30 @@
+.hire {
+    background: cadetblue;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 20px 0 0 0;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    background: #e12bca;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn:hover {
+    background: #e95ed7;
+}
