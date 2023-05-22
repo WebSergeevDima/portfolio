@@ -4,12 +4,12 @@ import style from './Contacts.module.css'
 const Contacts: React.FC = () => {
     return (
         <div className={style.contacts}>
-            <h2>Дмитрий Сергеев</h2>
+            <h2 className={style.title}>Контакты</h2>
             <form action="" className={style.form}>
-                <input type="text"/>
-                <input type="text"/>
-                <textarea></textarea>
-                <button>Отправить</button>
+                <input className={style.input} type="text"/>
+                <input className={style.input} type="text"/>
+                <textarea className={style.textarea}></textarea>
+                <button className={style.btn}>Отправить</button>
             </form>
         </div>
     )
