@@ -5,6 +5,7 @@ import TitleWithPhoto from "./components/TitleWithPhoto/TitleWithPhoto";
 import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/Works";
 import Hire from "./components/Hire/Hire";
+import Contacts from "./components/Contacts/Contacts";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Skills/>
             <Works/>
             <Hire/>
+            <Contacts/>
         </div>
     );
 }
