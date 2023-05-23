@@ -1,0 +1,29 @@
+.footer {
+    background: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0px 0 40px 0;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.copy {
+    margin: 40px 0 0 0;
+}
