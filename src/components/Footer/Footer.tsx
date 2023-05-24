@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                <div><img src="./images/photo.jpg" className={style.image} alt=""/></div>
            </div>
 
-            <div className={style.copy}>2023 Все права защищены</div>
+            <div className={style.copy}>&copy; 2023 Все права защищены</div>
         </footer>
     )
 }

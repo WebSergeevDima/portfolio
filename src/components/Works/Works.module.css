@@ -1,13 +1,14 @@
 .works {
-    background: #ffddba;
     text-align: center;
 }
 
 .worksTitle {
-    font-weight: bold;
-    margin: 40px 0 0 0;
+    font-weight: 600;
+    margin: 40px 0 20px 0;
+    color: #464c50;
     display: inline-block;
-    font-size: 32px;
+    font-size: 26px;
+    text-transform: uppercase;
 }
 
 .worksItems {

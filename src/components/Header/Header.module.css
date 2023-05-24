@@ -1,5 +1,6 @@
 header {
-    background: #c5eaf3;
+    background: linear-gradient(90deg, rgba(121,9,103,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 30px;
 }
 
 .header {
@@ -16,10 +17,23 @@ header {
 
 .nav__link {
     text-decoration: none;
-    color: #000;
-    margin: 0 10px;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(255,255,255,.1);
+    transition: .2s;
 }
 
 .nav__link:hover {
-    text-decoration: underline;
+    background: rgba(255,255,255,.4);
+}
+
+.nav > li:last-child .nav__link {
+    margin-right: 0px;
+}
+.nav > li:first-child .nav__link {
+    margin-left: 0px;
 }

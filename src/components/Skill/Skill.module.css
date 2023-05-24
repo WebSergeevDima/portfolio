@@ -1,16 +1,33 @@
 .skill {
-    border: grey 1px solid;
+    border: rgba(255,255,255,.3) 4px solid;
+    background: rgba(255,255,255,.3);
     width: 100%;
-    max-width: 250px;
+    max-width: 280px;
     text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+    color: #464646;
+    text-decoration: none;
+}
+.skill:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    color: #464646;
+}
+
+.skill:focus {
+    color: #464646;
+    text-decoration: none;
 }
 
 .skillImage {
     width: 100%;
+    border-radius: 6px;
 }
 
 .skillTitle {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     margin: 20px 0;
 }
@@ -18,4 +35,6 @@
 .skillDescription {
     margin: 20px auto;
     font-size: 16px;
+    padding: 0 20px;
+    font-weight: 400;
 }

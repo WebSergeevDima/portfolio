@@ -12,12 +12,20 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <TitleWithPhoto/>
+            <div className="mt-6 mb-6">
+                <TitleWithPhoto/>
+            </div>
             <Skills/>
-            <Works/>
+            <div className="mt-6 mb-6">
+                <Works/>
+            </div>
             <Hire/>
-            <Contacts/>
-            <Footer/>
+            <div className="mt-6 mb-6">
+                <Contacts/>
+            </div>
+            <div className="mt-6 mb-6">
+                <Footer/>
+            </div>
         </div>
     );
 }
