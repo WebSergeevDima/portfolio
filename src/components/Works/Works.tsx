@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Works.module.css'
-import Work from "../Work/Work";
+import Work from "./Work/Work";
 
 const Works: React.FC = () => {
     return (

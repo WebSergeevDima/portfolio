@@ -56,3 +56,10 @@
 .btn:hover {
     background: #456376;
 }
+
+
+@media all and (max-width: 600px) {
+    .form {
+        max-width: 100%;
+    }
+}

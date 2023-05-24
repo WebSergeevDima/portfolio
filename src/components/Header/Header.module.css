@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(90deg, rgba(121,9,103,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(121, 9, 103, 1) 0%, rgba(0, 212, 255, 1) 100%);
     padding: 30px;
 }
 
@@ -23,17 +23,42 @@ header {
     display: inline-block;
     padding: 15px;
     border-radius: 6px;
-    background: rgba(255,255,255,.1);
+    background: rgba(255, 255, 255, .1);
     transition: .2s;
 }
 
 .nav__link:hover {
-    background: rgba(255,255,255,.4);
+    background: rgba(255, 255, 255, .4);
 }
 
 .nav > li:last-child .nav__link {
     margin-right: 0px;
 }
+
 .nav > li:first-child .nav__link {
     margin-left: 0px;
+}
+
+@media all and (max-width: 960px) {
+
+    .header {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .header {
+        justify-content: center;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .nav__link {
+        margin: 0 5px;
+        font-size: 14px;
+        padding: 10px;
+    }
 }

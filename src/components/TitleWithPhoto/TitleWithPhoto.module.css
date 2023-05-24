@@ -6,13 +6,13 @@
 .titleWithPhoto {
     display: flex;
     justify-content: space-around;
-    background: rgb(121,9,103);
-    background: linear-gradient(90deg, rgba(121,9,103,1) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(121, 9, 103);
+    background: linear-gradient(90deg, rgba(121, 9, 103, 1) 0%, rgba(0, 212, 255, 1) 100%);
     padding: 30px;
     align-items: center;
     border-radius: 6px;
     color: #07ffd1;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -20,4 +20,31 @@
     font-weight: 900;
     line-height: 60px;
     letter-spacing: -1px;
+}
+
+@media all and (max-width: 960px) {
+
+
+    .titleWithPhoto {
+        flex-direction: column;
+    }
+
+
+    .title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0px;
+    }
 }

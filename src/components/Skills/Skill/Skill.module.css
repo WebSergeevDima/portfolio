@@ -1,6 +1,6 @@
 .skill {
-    border: rgba(255,255,255,.3) 4px solid;
-    background: rgba(255,255,255,.3);
+    border: rgba(255, 255, 255, .3) 4px solid;
+    background: rgba(255, 255, 255, .3);
     width: 100%;
     max-width: 280px;
     text-align: center;
@@ -10,9 +10,10 @@
     color: #464646;
     text-decoration: none;
 }
+
 .skill:hover {
     transform: scale(1.1);
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     color: #464646;
 }
 
@@ -37,4 +38,24 @@
     font-size: 16px;
     padding: 0 20px;
     font-weight: 400;
+}
+
+
+@media all and (max-width: 1000px) {
+
+    .skill {
+        max-width: 200px;
+    }
+}
+
+@media all and (max-width: 720px) {
+
+    .skill {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .skill:hover {
+        transform: scale(1);
+    }
+
 }

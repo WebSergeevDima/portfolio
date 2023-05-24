@@ -18,3 +18,18 @@
     justify-content: space-between;
     padding: 40px 0;
 }
+
+
+@media all and (max-width: 1000px) {
+
+
+}
+
+@media all and (max-width: 720px) {
+
+    .skillsItems {
+        flex-direction: column;
+    }
+
+
+}
