@@ -1,12 +1,27 @@
 import React from "react";
 import style from './Work.module.css'
 
-const Work: React.FC = () => {
+
+
+type WorkType = {
+    title: string
+    description: string
+    image: string
+}
+
+const Work: React.FC<WorkType> = ({title, description, image}) => {
+
+    const SImage = {
+        backgroundImage: 'url(./images/photo.jpg)',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover'
+    }
+
     return (
         <div className={style.work}>
-            <div><img src="./images/photo.jpg" className={style.workImage} alt=""/></div>
-            <div className={style.workTitle}>Название проекта</div>
-            <div className={style.workDescription}>Краткое описание</div>
+            <div className={`${style.workImage}`} style={SImage}></div>
+            <div className={style.workTitle}>{title}</div>
+            <div className={style.workDescription}>{description}</div>
         </div>
     )
 }

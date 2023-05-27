@@ -11,6 +11,8 @@
 .workImage {
     width: 100%;
     border-radius: 6px;
+    height: 330px;
+    background: #000;
 }
 
 .workTitle {

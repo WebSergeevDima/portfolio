@@ -4,17 +4,15 @@
     <list default="true" id="6af19140-e772-4a19-a793-7fda0a68c643" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hire/Hire.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hire/Hire.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TitleWithPhoto/TitleWithPhoto.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleWithPhoto/TitleWithPhoto.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Works.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/projects/it-incubator/portfolio/src/components",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\projects\\it-incubator\\portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/it-incubator/portfolio/src/components&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\it-incubator\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\it-incubator\portfolio\src\components" />
@@ -62,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684434984578</updated>
-      <workItem from="1684434986602" duration="38661000" />
+      <workItem from="1684434986602" duration="39322000" />
+      <workItem from="1685190864765" duration="3237000" />
     </task>
     <servers />
   </component>

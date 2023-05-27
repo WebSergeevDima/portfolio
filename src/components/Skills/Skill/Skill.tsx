@@ -1,13 +1,19 @@
 import React from "react";
 import style from './Skill.module.css'
 
-const Skill: React.FC = () => {
+type SkillType = {
+    title: string
+    description: string
+    image: string
+}
+
+const Skill: React.FC<SkillType> = ({title, description, image}) => {
     return (
-        <a href="src/components/Skills/Skill/Skill#" className={style.skill}>
-            <div><img src="./images/photo.jpg" className={style.skillImage} alt=""/></div>
-            <div className={style.skillTitle}>React</div>
-            <div className={style.skillDescription}>Подробное описание навыка</div>
-        </a>
+        <div className={style.skill}>
+            <div><img src={`./images/skills/${image}`} className={style.skillImage} alt={title}/></div>
+            <div className={style.skillTitle}>{title}</div>
+            <div className={style.skillDescription}>{description}</div>
+        </div>
     )
 }
 

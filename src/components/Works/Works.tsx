@@ -9,8 +9,8 @@ const Works: React.FC = () => {
                 <h2 className={style.worksTitle}>Мои работы</h2>
 
                 <div className={style.worksItems}>
-                    <Work/>
-                    <Work/>
+                    <Work title="Название проекта" description="Описание проекта" image="work1.jpg"/>
+                    <Work title="Название проекта" description="Описание проекта" image="work2.jpg"/>
                 </div>
             </div>
         </div>

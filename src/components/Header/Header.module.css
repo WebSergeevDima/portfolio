@@ -15,7 +15,7 @@ header {
     display: flex;
 }
 
-.nav__link {
+.navLink {
     text-decoration: none;
     color: #fff;
     margin: 0 15px;
@@ -27,15 +27,15 @@ header {
     transition: .2s;
 }
 
-.nav__link:hover {
+.navLink:hover {
     background: rgba(255, 255, 255, .4);
 }
 
-.nav > li:last-child .nav__link {
+.nav > li:last-child .navLink {
     margin-right: 0px;
 }
 
-.nav > li:first-child .nav__link {
+.nav > li:first-child .navLink {
     margin-left: 0px;
 }
 
@@ -56,8 +56,8 @@ header {
         padding: 10px;
     }
 
-    .nav__link {
-        margin: 0 5px;
+    .navLink {
+        margin: 0 3px;
         font-size: 14px;
         padding: 10px;
     }
