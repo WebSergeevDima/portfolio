@@ -18,11 +18,11 @@ const Work: React.FC<WorkType> = ({title, description, image}) => {
     }
 
     return (
-        <div className={style.work}>
-            <div className={`${style.workImage}`} style={SImage}></div>
+        <a href="#" className={style.work}>
+            <div className={`${style.workImage}`} style={SImage}><div className={style.btn}>Смотреть</div></div>
             <div className={style.workTitle}>{title}</div>
             <div className={style.workDescription}>{description}</div>
-        </div>
+        </a>
     )
 }
 
